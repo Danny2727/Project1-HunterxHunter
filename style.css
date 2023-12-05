@@ -56,5 +56,11 @@ p {
 }
 
 ol {
-    
+    font-size: 20px;
+    margin: 8px;
+}
+
+.hunterphoto {
+    width: 2000px;
+    height: 600px;
 }
