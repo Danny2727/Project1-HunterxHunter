@@ -1,0 +1,17 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+text-align: center;
+margin: 50px 50px;
+}
+
+#hunter-eblem {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    border-style: solid;
+    background-color: darkgray;
+}
