@@ -4,8 +4,8 @@ body {
 }
 
 h1 {
-text-align: center;
-margin: 50px 50px;
+    text-align: center;
+    margin: 50px 50px;
 }
 
 #hunter-eblem {
@@ -14,4 +14,25 @@ margin: 50px 50px;
     margin-bottom: 50px;
     border-style: solid;
     background-color: darkgray;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px 50px;
+}
+
+h3 {
+    text-align: center;
+    margin: 50px 50px;
+}
+
+h4 {
+    text-align: center;
+    margin: 50px 50px;
+}
+
+p {
+    margin: 50px 50px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
 }
