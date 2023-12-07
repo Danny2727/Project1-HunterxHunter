@@ -13,6 +13,11 @@ section {
     border-style: solid;
 }
 
+div {
+    display: grid;
+    grid-row: auto;
+}
+
 
 h1 {
     text-align: center;
@@ -61,6 +66,6 @@ ol {
 }
 
 .hunterphoto {
-    width: 2000px;
-    height: 600px;
+    width: 1774px;
+    height: 200px;
 }
