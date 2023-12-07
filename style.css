@@ -1,71 +1,102 @@
-body {
-    padding: 0;
-    margin: 0;
-}
 
-header {
-    background-color: red;
-    border-style: solid;
-}
 
-section {
-    background-color: darkgray;
-    border-style: solid;
-}
-
-div {
+body{
     display: grid;
-    grid-row: auto;
-}
-
-
-h1 {
-    text-align: center;
-    margin: 50px 50px;
-}
-
-#hunter-eblem {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    background-color: darkgray;
-}
-
-h2 {
-    text-align: center;
-    margin: 50px 50px;
-    background-color:red;
-    border-radius: 10px;
-}
-
-h3 {
-    text-align: center;
-    margin: 50px 50px;
-    background-color:red;
-    border-radius: 10px;
-}
-
-h4 {
-    text-align: center;
-    margin: 50px 50px;
-    background-color:red;
-    border-radius: 10px;
-}
-
-p {
-    margin: 50px 50px;
-    font-style: normal;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 20px 20px;
-    font-size: 20px;
-}
-
-ol {
-    font-size: 20px;
-    margin: 8px;
-}
-
-.hunterphoto {
-    width: 1774px;
-    height: 200px;
-}
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 50px 1fr 1fr 100px;
+    grid-template-areas: 
+    "nav nav"
+    "section aside"
+    "article aside"
+    "footer footer";
+    
+    height: 100vh;
+    grid-gap: 4px;
+    }
+    
+    nav {
+        background-color: black;
+        grid-area: nav;
+    }
+    
+    footer {
+        background-color: black;
+        grid-area: footer;
+    }
+    
+    section {
+        background-color: darkgray;
+        border-style: solid;
+        grid-area: section;
+    }
+    
+    article {
+        background-color: darkgray;
+        border-style: solid;
+        grid-area: article;
+    }
+    
+    
+    aside {
+        background-color: darkgray;
+        border-style: solid;
+        grid-area: aside;
+    }
+    
+    
+    
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    a {
+        color: white;
+        text-decoration: inherit;
+        font-size: 20px;
+    }
+    
+    
+    h1 {
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    h2 {
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    h3 {
+        text-align: center;
+        margin-top: 40px;
+    }
+     
+    
+    img {
+        justify-content: center;
+        width: 800x;
+        height: 200px;
+        border-style: solid;
+    }
+    
+    
+    div {
+        display: flex;
+        justify-content: center;
+       margin: 40px 40px;
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 20px;
+    }
+    
+    footer {
+        text-align: center;
+       color: white;
+       font-size: 40px;
+    }
+    
+    aside p {
+        font-family: 'Times New Roman', Times, serif;
+       font-size: 25px;
+    }
